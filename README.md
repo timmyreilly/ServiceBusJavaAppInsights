@@ -55,3 +55,5 @@ table3
 | summarize count(SessionId) by bin(todatetime(samples), 1s) 
 | order by samples desc
 ```
+
+Expect around a 3 minute delay for messages to land in Application Insights 
