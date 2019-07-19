@@ -64,6 +64,6 @@ public class ServiceBusQueueTriggerJava {
         properties.put("StartTime", startTime.toString());
         properties.put("EndTime", endTime.toString());
 
-        telemetry.trackEvent("MessagedProcessed", properties, metrics);
+        telemetry.trackEvent("MessageProcessed", properties, metrics);
     }
 }
